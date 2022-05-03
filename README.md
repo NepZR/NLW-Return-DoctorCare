@@ -1,2 +1,2 @@
-# NLW-Return-Sapeka
-Repositório dedicado ao projeto desenvolvido durante o NLW Return - Trilha Origin, da Rocketseat. Projeto original "DoctorCare" modificado por Lucas Rodrigues para a Loja Sapeka, em Santarém - PA.
+# NLW-Return-DoctorCare
+Repositório dedicado ao projeto "DoctorCare" desenvolvido durante o NLW Return - Trilha Origin, da Rocketseat.
