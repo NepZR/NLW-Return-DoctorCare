@@ -13,6 +13,8 @@ Repositório dedicado ao projeto "DoctorCare" desenvolvido por Lucas D. F. Rodri
     <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-5">NLW Return - Trilha Origin - Dia 05/05 <strong>(EM BREVE)</strong></a></li>
   </ul>
 
+<h4>Acesse o projeto no Netlify <a target="_blank" href="https://nlw-doctorcare.netlify.app/">clicando aqui.</a></h4>
+
 ---
 
 <div style="display: flex; align-itens: center; justify-content: center;">
