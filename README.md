@@ -9,7 +9,7 @@ Repositório dedicado ao projeto "DoctorCare" desenvolvido por Lucas D. F. Rodri
     <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-1">NLW Return - Trilha Origin - Dia 01/05</a></li>
     <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-2">NLW Return - Trilha Origin - Dia 02/05</a></li>
     <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-3">NLW Return - Trilha Origin - Dia 03/05</a></li>
-    <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-4">NLW Return - Trilha Origin - Dia 04/05 <strong>(EM BREVE)</strong></a></li>
+    <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-4">NLW Return - Trilha Origin - Dia 04/05</a></li>
     <li><a target="_blank" href="https://github.com/NepZR/NLW-Return-DoctorCare/tree/nlw-dia-5">NLW Return - Trilha Origin - Dia 05/05 <strong>(EM BREVE)</strong></a></li>
   </ul>
 
