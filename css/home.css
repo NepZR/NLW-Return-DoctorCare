@@ -1,0 +1,168 @@
+#home {
+  padding-block: 0;
+  padding-top: calc(4.1rem + var(--nav-height));
+}
+
+#home h1 {
+  margin-bottom: 2.4rem;
+}
+
+#home p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+#home img {
+  width: 26.4rem;
+  display: block;
+  margin-inline: auto;
+  object-position: 0 2rem;
+}
+
+#home .button {
+  margin-inline: auto;
+  margin-bottom: 6rem;
+}
+
+#home::before {
+  content: '';
+  width: 100%;
+  height: calc(103rem + var(--nav-height));
+  background-color: var(--brand-light);
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#home .stats {
+  width: 100%;
+
+  margin-inline: auto;
+
+  background-color: var(--brand-beige);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+
+  padding-block: 4rem;
+
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+}
+
+#home .stat h3 {
+  font-size: 4.8rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
+}
+
+#home .stat p {
+  margin: 0;
+  color: var(--primary-color);
+
+  line-height: 150%;
+}
+
+#home .stat .rating .goldenStar:nth-child(1) {
+  color: hsl(48, 74%, 49%);
+
+  transition: color 1s;
+}
+
+#home .stat .rating .goldenStar:nth-child(2) {
+  color: hsl(48, 74%, 49%);
+
+  transition: color 1.25s;
+}
+
+#home .stat .rating .goldenStar:nth-child(3) {
+  color: hsl(48, 74%, 49%);
+
+  transition: color 1.5s;
+}
+
+#home .stat .rating .goldenStar:nth-child(4) {
+  color: hsl(48, 74%, 49%);
+
+  transition: color 1.75s;
+}
+
+#home .stat .rating .goldenStar:nth-child(5) {
+  color: hsl(48, 74%, 49%);
+
+  transition: color 2s;
+}
+
+#home .stat .rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-inline: 12rem;
+}
+
+@media (min-width: 1024px) {
+  #home::before {
+    height: calc(96% - var(--nav-height));
+    width: 100%;
+  }
+
+  #home {
+    padding-top: var(--nav-height);
+  }
+
+  #home .wrapper {
+    grid-template-columns: 60.5rem 1fr;
+    grid-template-areas:
+      'A B'
+      'C C';
+  }
+
+  #home .col-a {
+    text-align: left;
+    align-self: center;
+  }
+
+  #home h1 {
+    font-size: 5.2rem;
+  }
+
+  #home .content p {
+    font-size: 1.8rem;
+  }
+
+  #home .stats {
+    grid-area: C;
+
+    flex-direction: row;
+    padding: 6rem;
+
+    gap: 0;
+  }
+
+  #home .stats .stat + .stat {
+    border-left: 1px solid var(--primary-color);
+  }
+
+  #home .stats .stat {
+    flex: 1;
+  }
+
+  #home .button {
+    margin: 0;
+  }
+
+  #home img {
+    width: 42rem;
+  }
+}
