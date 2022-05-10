@@ -165,4 +165,8 @@
   #home img {
     width: 42rem;
   }
+
+  #home .stat .rating {
+    padding-inline: 8rem;
+  }
 }
