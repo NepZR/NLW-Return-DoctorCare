@@ -1,0 +1,133 @@
+#testimonial {
+  background: white;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+#testimonial .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  padding-top: 6rem;
+}
+
+#testimonial .card {
+  border: 1px solid none;
+  border-radius: 0.4rem;
+  text-align: justify;
+
+  background-color: var(--brand-beige);
+
+  padding-inline: 3.2rem 7.2rem;
+  padding-block: 2rem;
+}
+
+#testimonial p {
+  color: var(--paragraph);
+
+  padding-block: 2rem;
+}
+
+#testimonial .card path {
+  fill: var(--primary-color);
+}
+
+#testimonial .client-info {
+  display: flex;
+
+  align-items: center;
+  gap: 1.6rem;
+}
+
+#testimonial .client-info img {
+  width: 4.2rem;
+  height: 4.2rem;
+
+  border-radius: 10rem;
+}
+
+#testimonial .client-info h4 {
+  color: var(--primary-color);
+
+  font-weight: 700;
+}
+
+#testimonial .navigation rect {
+  fill: var(--primary-color);
+}
+
+#testimonial .branding {
+  display: flex;
+  flex-direction: column;
+
+  padding-block: 10rem;
+}
+
+#testimonial .branding h2 {
+  padding-bottom: 4.8rem;
+}
+
+#testimonial .brand {
+  display: flex;
+  align-self: center;
+
+  padding-top: 4rem;
+}
+
+#testimonial .brand path {
+  fill: var(--primary-color);
+}
+
+#testimonial .brand path[fill*='#fbfaf9'] {
+  fill: white;
+}
+
+#testimonial .brand path[fill*='#fcfcfc'] {
+  fill: white;
+}
+
+#testimonial .brand svg {
+  width: 18rem;
+  height: auto;
+
+  border-radius: none;
+}
+
+#testimonial .brand:nth-child(3) svg {
+  width: 14.5rem;
+}
+
+#testimonial .brand:nth-child(4) svg {
+  width: 23rem;
+}
+
+#testimonial .brand:nth-child(5) svg {
+  width: 23rem;
+}
+
+#testimonial .brand:nth-child(6) svg {
+  width: 15.5rem;
+}
+
+@media (min-width: 1024px) {
+  #testimonial .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #testimonial .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+
+  #testimonial .branding h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+
+    text-align: center;
+  }
+
+}
