@@ -7,6 +7,7 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(testimonial)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -30,10 +31,6 @@ function activateMenuAtCurrentSection(section) {
   menuElement.classList.remove('active')
   if (sectionBoundaries) {
     menuElement.classList.add('active')
-
-    if (section == contact) {
-      window.initMap = initMap
-    }
   }
 }
 
@@ -75,22 +72,8 @@ ScrollReveal({
   #testimonial,
   #testimonial header,
   #testimonial .card,
+  #testimonial .branding h2,
+  #testimonial .brand,
   #about,
   #about header,
   #about .content`)
-
-// Initialize and add the map
-function initMap() {
-  // The location of Loja Sapeka
-  const sapeka = { lat: -2.4203791, lng: -54.7105427 }
-  // The map, centered at Loja Sapeka
-  const map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 18,
-    center: sapeka
-  })
-  // The marker, positioned at Loja Sapeka
-  const marker = new google.maps.Marker({
-    position: sapeka,
-    map: map
-  })
-}

@@ -7,11 +7,15 @@
   <li>Modificação da paleta de cores (hue) no <code>style.css;</code></li>
   <li>Transição de cores utilizando o <code>:nth-child()</code> para cada estrela de avaliação, da cor <code>var(--headline)</code> para <code>hsl(48, 74%, 49%)</code> ou dourado;</li>
   <li>Seção "Contato": Adição de um <b>mapa interativo</b> da Google com o uso da API disponibilizada e com leitura da documentação disponível <a target="_blank" href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript">aqui</a>, com modificação do <code>main.js</code>;</li>
+  <ul>
+    <li>Modificação (Maio 09, 2022): alteração da API do Google para uma imagem do mapa por erros na API e lentidão no carregamento da página.</li>
+  </ul>
   <li>Criação da seção de depoimentos (<code>section id="testimonial"</code>) e CSS correspondente (<code>testimonial.css</code>);</li>
   <li>Seção "Sobre": Adição de um <code>border-radius: 0.8rem</code> na imagem para estilizar um pouco a exibição;</li>
   <li>Seção "Rodapé": <code>h3</code> para marcar a autoria na página ("Feito com ❤️ por Lucas Rodrigues.")</li>
   <li>Pacote de icones <a target="_blank" href="https://iconpark.oceanengine.com/official"><b>ByteDance IconPack</b></a> utilizado nas novas modificações e customizações da página;</li>
-  <li>?????</li>
+  <li>Seção "Nav | Menu": Adição da Seção "Depoimentos";</li>
+  <li>Criação da seção de "Empresas que confiam" integrada abaixo dos depoimentos;</li>
 </ol>
 
 ---

@@ -9,6 +9,7 @@
 #testimonial .cards {
   display: flex;
   flex-direction: column;
+  gap: 3.2rem;
 
   padding-top: 6rem;
 }
@@ -34,18 +35,18 @@
   fill: var(--primary-color);
 }
 
-#testimonial img {
-  width: 4.2rem;
-  height: 4.2rem;
-
-  border-radius: 10rem;
-}
-
 #testimonial .client-info {
   display: flex;
 
   align-items: center;
   gap: 1.6rem;
+}
+
+#testimonial .client-info img {
+  width: 4.2rem;
+  height: 4.2rem;
+
+  border-radius: 10rem;
 }
 
 #testimonial .client-info h4 {
@@ -54,18 +55,79 @@
   font-weight: 700;
 }
 
-#testimonial .navigation {
-  display: flex;
-
-  margin-top: 4rem;
-  gap: 2.4rem;
-}
-
-#testimonial .navigation button {
-  border: none;
-  background: none;
-}
-
 #testimonial .navigation rect {
   fill: var(--primary-color);
+}
+
+#testimonial .branding {
+  display: flex;
+  flex-direction: column;
+
+  padding-block: 10rem;
+}
+
+#testimonial .branding h2 {
+  padding-bottom: 4.8rem;
+}
+
+#testimonial .brand {
+  display: flex;
+  align-self: center;
+
+  padding-top: 4rem;
+}
+
+#testimonial .brand path {
+  fill: var(--primary-color);
+}
+
+#testimonial .brand path[fill*='#fbfaf9'] {
+  fill: white;
+}
+
+#testimonial .brand path[fill*='#fcfcfc'] {
+  fill: white;
+}
+
+#testimonial .brand svg {
+  width: 18rem;
+  height: auto;
+
+  border-radius: none;
+}
+
+#testimonial .brand:nth-child(3) svg {
+  width: 14.5rem;
+}
+
+#testimonial .brand:nth-child(4) svg {
+  width: 23rem;
+}
+
+#testimonial .brand:nth-child(5) svg {
+  width: 23rem;
+}
+
+#testimonial .brand:nth-child(6) svg {
+  width: 15.5rem;
+}
+
+@media (min-width: 1024px) {
+  #testimonial .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #testimonial .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+
+  #testimonial .branding h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+
+    text-align: center;
+  }
+
 }
