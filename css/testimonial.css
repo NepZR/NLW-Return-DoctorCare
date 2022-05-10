@@ -63,11 +63,19 @@
   display: flex;
   flex-direction: column;
 
-  padding-block: 10rem;
+  padding-top: 10rem;
 }
 
 #testimonial .branding h2 {
   padding-bottom: 4.8rem;
+}
+
+#testimonial .brands {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  gap: 2.4rem;
 }
 
 #testimonial .brand {
@@ -89,27 +97,23 @@
   fill: white;
 }
 
-#testimonial .brand svg {
+#testimonial .brands svg {
   width: 18rem;
   height: auto;
 
   border-radius: none;
 }
 
-#testimonial .brand:nth-child(3) svg {
+#testimonial .brand:nth-child(2) svg {
   width: 14.5rem;
 }
 
+#testimonial .brand:nth-child(3) svg {
+  width: 25rem;
+}
+
 #testimonial .brand:nth-child(4) svg {
-  width: 23rem;
-}
-
-#testimonial .brand:nth-child(5) svg {
-  width: 23rem;
-}
-
-#testimonial .brand:nth-child(6) svg {
-  width: 15.5rem;
+  width: 26rem;
 }
 
 @media (min-width: 1024px) {
@@ -128,6 +132,13 @@
     font-weight: 700;
 
     text-align: center;
+  }
+
+  #testimonial .brands {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 5.2rem;
   }
 
 }
