@@ -6,7 +6,7 @@ function onScroll() {
   showBackToTopButtonOnScroll()
 
   activateMenuAtCurrentSection(home)
-  activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(products)
   activateMenuAtCurrentSection(testimonial)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
@@ -66,9 +66,9 @@ ScrollReveal({
   #home,
   #home img,
   #home .stats,
-  #services,
-  #services header,
-  #services .card,
+  #products,
+  #products header,
+  #products .card,
   #testimonial,
   #testimonial header,
   #testimonial .card,

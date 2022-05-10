@@ -129,7 +129,7 @@ a.button:hover {
   gap: 3.2rem;
 }
 
-#services .card circle {
+#products .card circle {
   fill: var(--brand-light);
 }
 

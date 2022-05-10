@@ -1,14 +1,14 @@
-#services header h2 {
+#products header h2 {
   margin-bottom: 6rem;
 }
 
-#services .cards {
+#products .cards {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-#services .card {
+#products .card {
   padding: 2.4rem;
   text-align: left;
 
@@ -17,23 +17,23 @@
   border-radius: 0.6rem;
 }
 
-#services .card h3 {
+#products .card h3 {
   margin-block: 1.6rem;
 }
 
 @media (min-width: 1024px) {
-  #services h2 {
+  #products h2 {
     width: 47rem;
     margin-inline: auto;
   }
 
-  #services .cards {
+  #products .cards {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
   }
 
-  #services .card {
+  #products .card {
     width: 30%;
     flex-grow: 1;
   }
